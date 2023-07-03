@@ -1,52 +1,10 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto';
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,700;1,400&display=swap');
-/* Side menu */
-.side-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  background: #f32c52;
-  font-family: 'Roboto', sans-serif;
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  transition: width 2s;
-}
 
-.side-menu:hover {
-  width: 300px;
-}
 
-.side-menu li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  width: 300px;
-}
 
-.side-menu li a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: .9rem;
-  text-decoration: none;
-  color: #FFF;
-  height: 100px;
-  transition: background-color .3s ease;
-}
 
-.side-menu li:hover {
-  background: #14081d;
-  flex: 1;
-}
 
 .material-icons.md-48, .material-symbols-outlined.md-52 {
   font-size: 52px;
@@ -80,7 +38,7 @@
 
 /* Conteiner */
 .conteiner {
-  background: linear-gradient(-80deg, #6b11c0, #702ae2, #d50ce7, #6d0686de);
+  background: linear-gradient(90deg, rgb(0, 31, 63) 0%, rgb(47, 49, 54) 50%, rgb(54, 34, 21) 100%);
   background-size: 400% 400%;
   height: 100%;
   display: flex;
