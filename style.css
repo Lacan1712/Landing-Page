@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+.full-conteiner {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  animation: gradiente 10s ease infinite;
+  background-size: 400% 400%;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(90deg, #a80435c9,#b80daa 16.62%, #15d5db 85.61%,#0b6ae671);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 18px
+}
+
+
+
+.rodape-imagem {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
+
+/*Animation Gradiente Background*/
+@keyframes gradiente {
+
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 100%;
+  }
+
+
+}
