@@ -11,7 +11,8 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(90deg, #410407ef,#a00b17 16.62%, #a00b17);
+  
+  background: linear-gradient(90deg, rgb(0, 31, 63) 0%, rgb(47, 49, 54) 50%, rgb(54, 34, 21) 100%);
 }
 
 .cabecalho {
