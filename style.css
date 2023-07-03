@@ -6,35 +6,10 @@
 
 
 
-.material-icons.md-48, .material-symbols-outlined.md-52 {
-  font-size: 52px;
-}
 
-.material-icons.md-light {
-  margin-left: 0;
-  transition: 0.1s;
-}
 
-.side-menu li:hover .material-icons.md-light {
-  color: rgb(247, 0, 123);
-  margin-left: -100px;
-}
 
-.material-icons {
-  margin: 5px;
-}
 
-.material-symbols-outlined {
-  position: fixed;
-  left: -6px;
-  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48;
-  color: #050505;
-  transition: 1.5s;
-}
-
-.side-menu:hover .material-symbols-outlined {
-  opacity: 0%;
-}
 
 /* Conteiner */
 .conteiner {
