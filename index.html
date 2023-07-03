@@ -17,18 +17,42 @@
 
   <!-- Criação dos conteúdos das seções -->
   <div class="box-conteiner">
-    <div>
-		<h1 style="font-family:'Alfa Slab One';, cursive; letter-spacing: 3px; transition:1s;">SOBRE</h1>
-		<div class="box-conteiner-p">
-		
-			
-		</div>
+    <div class = "box-conteiner-sobre">
+
+		  <h1 style="font-family:'Arial';, cursive; letter-spacing: 3px; transition:1s;">SOBRE</h1>
 		
     </div>
 	
 	
   </div>
-  <!-- Script para animação do ícone da seta -->
+
+
+  <!--Criação das waves-->
+  <div class="header">
+  
+  <!--Waves Container-->
+  <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+    <use xlink:href="#gentle-wave" x="46" y="0" fill="rgba(255,255,255,0.7" />
+    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+    </g>
+    </svg>
+    </div>
+  </div>
+  <!--Waves end-->
+
+
+
+
+
+  <!-- Script  -->
   <script>
     const gradientAnimeted = document.querySelector('.conteiner');
     gradientAnimeted.classList.add('gradient');
@@ -37,16 +61,6 @@
     
     formacao = document.querySelector('#formacao');
 
-    // Animação do ícone da seta
-    anime({
-      targets: arrowIcon,
-      translateX: [-5, 50],
-      duration: 3000,
-      scale: [1, 1.5],
-      direction: 'alternate',
-      loop: true,
-      easing: 'easeInOutSine'
-    });
   </script>
 </body>
 </html>
