@@ -14,7 +14,7 @@
 /* Conteiner */
 .conteiner {
   background: linear-gradient(90deg, rgb(0, 31, 63) 0%, rgb(47, 49, 54) 50%, rgb(54, 34, 21) 100%);
-  background-size: 400% 400%;
+  background-size: 1000% 80%;
   padding: 0px;
   margin: 0px;
   height: 100%;
@@ -39,9 +39,9 @@
   margin: 10px;
   flex-direction: column;
   background-color: rgba(0,0,0,0.3);
-  width: 500px;
+  width: 400px;
   padding: 10px;
-  height: 500px;
+  height: 400px;
   color: #FFF;
   flex: 1;
   align-items: center;
@@ -99,7 +99,7 @@
 /* Animation */
 
 .parallax > use {
-  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+  animation: move-forever 25s cubic-bezier(.55,.50,.45,.5)     infinite;
 }
 .parallax > use:nth-child(1) {
   animation-delay: -2s;
