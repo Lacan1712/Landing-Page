@@ -24,7 +24,6 @@
 }
 
 
-
 .box-lateral-right .box-photo {
   display: flex;
   cursor: pointer;
@@ -59,8 +58,6 @@
 }
 
 
-
-
 .waves {
   position:relative;
   width: 100%;
@@ -77,8 +74,8 @@
   background-color: white;
 }
 
-/* Animation */
 
+/* Animation */
 .parallax > use {
   animation: move-forever 25s cubic-bezier(.55,.50,.45,.5)     infinite;
 }
@@ -98,6 +95,7 @@
   animation-delay: -5s;
   animation-duration: 20s;
 }
+
 @keyframes move-forever {
   0% {
    transform: translate3d(-90px,0,0);
@@ -106,6 +104,7 @@
     transform: translate3d(85px,0,0);
   }
 }
+
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
   .waves {
@@ -137,10 +136,46 @@
 }
 
 
+/*my-name*/
+.box-lateral-right #my-name{
+  color: white;
+  position: relative;
+  left: 200px;
+  bottom: 150px;
+  font-size:30px;
+  width: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: redigitar 1.3s steps(25) forwards;
+
+}
+
+/*animation: my-name*/
+.box-photo:hover + #my-name {
+  animation: digitar 1s steps(19) forwards;
+  
+}
 
 
+@keyframes digitar{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
 
+}
 
+@keyframes redigitar{
+  from{
+    width: 100%;
+  }
+  to{
+    width: 0%;
+  }
+
+}
 
 
 @keyframes gradient {
